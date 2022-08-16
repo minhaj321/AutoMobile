@@ -1,0 +1,92 @@
+
+.addSubmission_center_div{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+
+}
+.addSubmission_box{
+    width: 86%;
+    background-color: #fff;
+    border-radius: 5px;
+    border: 1px solid gray;
+    padding: auto;
+}
+
+#label {
+    border-radius: 3px;
+    cursor: pointer;
+  }
+.image_div{
+height:70px;
+width:90%;
+/* border:1px solid gray; */
+}
+.camera_icon{
+    float:left;
+}
+
+
+@media only screen and (max-width:1030px){
+    .review_details_Avatar{
+    height:60px !important;
+    width: 60px !important;
+    margin-top: 5px;
+}
+.image_div{
+height:60px;
+width:90%;
+}
+
+.camera_icon{
+    float:left;
+}
+}
+
+@media only screen and (max-width:770px){
+.ad_submit_btn{
+    width: 30% !important;
+}
+.review_details_Avatar{
+    height:45px !important;
+    width: 45px !important;
+    margin-top: 12px;
+}
+.camera_icon{
+    float:left;
+}
+
+}
+
+
+@media only screen and (max-width:430px){
+    .ad_submit_btn{
+        width: 50% !important;
+    }
+    .price_input{
+        width:95% !important;
+    }
+    }
+
+
+    @media only screen and (max-width:380px){
+    /* .image_div{
+    height:60px;
+    width:90%;
+    } */
+    
+    }
+
+    
+@media only screen and (max-width:330px){
+    .review_details_Avatar{
+    height:40px !important;
+    width: 40px !important;
+    margin-top: 15px;
+}
+    .image_div{
+    height:50px;
+    width:90%;
+    }
+
+}

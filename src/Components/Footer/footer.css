@@ -1,0 +1,17 @@
+.footer_main{
+    background-color: #2B2B2B;
+    color:white
+}
+.footer_content{
+    width: 70%;
+    margin-left: 15%;
+    text-align: left;
+}
+.logo_txt{
+    font-size: 30px;
+    margin-bottom: -10px;
+}
+.footer_about_us{
+    font-family:monospace;
+    font-size: 24px;
+}

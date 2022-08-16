@@ -1,0 +1,57 @@
+.product_details_main{
+    width:90%;
+    margin:auto;
+    margin-top: 20px;
+    
+}
+.labels p,.values p{
+    margin-bottom: 6px;
+}
+.product_Details_image_div{
+    width:100%;
+    height: 450px;
+    background-image: url('./../../Assets/LoginBg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    position: relative;
+}
+.product_details_img_count{
+    width:90px;
+    height:40px;
+    background-color: black;
+    border-top-right-radius: 5px;
+    position: absolute;
+    right: 0px;
+}
+
+@media only screen and (max-width:770px){
+    .product_details_main{
+        width: 100% !important;
+    }
+    
+.labels p,.values p{
+    /* margin-bottom: 6px; */
+    font-size: 13px !important;
+}
+.product_Details_image_div{
+    height:350px !important;
+}
+}
+
+
+@media only screen and (max-width:430px){
+
+.labels p,.values p{
+    font-size: 15px !important;
+}
+
+}
+
+
+@media only screen and (max-width:380px){
+    
+.product_Details_image_div{
+    height:250px !important;
+}
+}

@@ -1,0 +1,52 @@
+.after_header{
+    height:120px;
+    background-color: rgb(201, 201, 201);
+    width: 100%;
+    border: 0px solid black;
+}
+.hi{
+    padding-right: 60px;
+    padding-top: 100px !important;
+    padding-bottom: -20px;
+    margin-bottom: -20px;
+    margin-top: 10px !important;
+    /* background-color: red; */
+}
+.spare_parts_bgimg_div{
+    width:100%;
+    height: 450px;
+    background-image: url('./../../Assets/sparePartsBg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+}
+.spare_parts_div_txt{
+    color: white;
+    display: flex;
+    margin-top: 0px;
+    padding-top: 170px;
+    align-self: center;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+}
+.spare_part_details{
+    width: 80%;
+    /* height: 100px; */
+    margin-top: 20px !important;
+    background-color: rgb(231, 231, 231);
+    margin: auto;
+}
+.spare_part_category_list li{
+    margin-top: 10px;
+}
+
+@media only screen and (max-width:430px){
+    .spare_parts_bgimg_div{
+        height: 350px !important;
+    }
+    .spare_parts_div_txt{
+        padding-top: 120px !important;
+    }
+}

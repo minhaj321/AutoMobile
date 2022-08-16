@@ -1,0 +1,7 @@
+.input:focus{
+    box-shadow: none;
+    border: 1px solid black;
+}
+.input{
+    width: 97%;
+}

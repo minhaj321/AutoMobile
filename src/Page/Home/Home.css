@@ -1,0 +1,10 @@
+.home_recommendation_div{
+    width:80%;
+    margin: auto;
+}
+.home_modal_ul{
+    font-size: 15px;
+}
+.home_modal_ul li{
+    margin-top: 8px;
+}

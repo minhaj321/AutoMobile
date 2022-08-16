@@ -1,0 +1,39 @@
+
+.login_center_div{
+    background-image: url('./../../Assets/LoginBg.png');
+    background-repeat: no-repeat;
+    height:700px;
+    background-size: 100% 500px;
+    background-position: top;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.login_box{
+    width: 500px;
+    /* width:35%; */
+    background-color: #fff;
+    border-radius: 5px;
+    border: 2px solid;
+}
+.social_link_div{
+    height: 50px;
+    width: 270px;
+    border: 2px solid black;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+@media only screen and (max-width:430px){
+.login_box{
+    width: 95%;
+}
+}
+
+/* red:#FD4441 */
+/* black:#2B2B2B */
+/* gray:#949598 */
+/* darkgray:#2B2B2B */
+/* lightgray:#FFFFFF */

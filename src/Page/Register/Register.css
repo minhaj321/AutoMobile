@@ -1,0 +1,36 @@
+.register_center_div{
+    background-image: url('./../../Assets/car-parts.png');
+    background-repeat: no-repeat;
+    background-size: 100% 500px;
+    background-position: top;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.register_box{
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    width: 800px;
+    background-color: #fff;
+    border-radius: 5px;
+    border: 2px solid;
+    padding: auto;
+}
+
+@media only screen and (max-width:770px){
+    .register_box{
+        width: 700px;
+    }
+}
+
+
+@media only screen and (max-width:430px){
+    .register_btn{
+        width: 60% !important;
+    }
+    .register_box{
+        width: 95%;
+    }
+}
